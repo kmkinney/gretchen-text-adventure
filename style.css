@@ -1,0 +1,51 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d6dbd2;
+}
+body{
+    margin: 5em 10em;
+    /* line-height: 1.5em; */
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: xx-large;
+}
+h1, h2, h3{
+    line-height: 2.5em;
+    font-weight: normal;
+}
+.prompt{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-weight:bold;
+}
+a {
+    text-decoration: none;
+    color: #12685e;
+    font-size: large;
+    line-height: 1.5em;
+}
+.start-over{
+    font-family: 'Berkshire Swash', cursive;
+    color: #d1495b;
+    font-size: x-large;
+}
+
+a:hover{
+    color:#413c58;
+}
+/* .options:link{
+    color: yellow;
+} */
+img{
+    width: 60px;
+    height: auto;
+}
+.title-img{
+    width: 90px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
