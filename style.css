@@ -12,6 +12,12 @@ body{
     font-family: 'Berkshire Swash', cursive;
     font-size: xx-large;
 }
+.traitor{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-bottom:-30px;
+}
 h1, h2, h3{
     line-height: 2.5em;
     font-weight: normal;
@@ -42,6 +48,20 @@ a:hover{
 img{
     width: 60px;
     height: auto;
+}
+#fire{
+    width: 100%;
+    height: auto;
+    margin-top: -200px;
+}
+#burning{
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-150%, 200%) rotate(45deg);
 }
 .title-img{
     width: 90px;
